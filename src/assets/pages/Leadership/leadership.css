@@ -1,0 +1,70 @@
+.leadershipContainer {
+  text-align: center;
+  padding: 5rem 8rem;
+  background-color: aliceblue;
+}
+
+.leadershipTitle {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.leadersGrid {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.leaderCard {
+  background: #c5baba;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 50rem;
+  height: 35rem;
+}
+
+.leaderImage {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10%;
+  object-fit: cover;
+  padding: 2rem;
+}
+
+.leaderName {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+.leaderRole {
+  font-weight: bold;
+  color: #4f5255;
+  font-size: 1.8rem;
+}
+
+.leaderBio {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.socialLinks a {
+  display: inline-block;
+  margin: 0.5rem;
+  color: #032244;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}

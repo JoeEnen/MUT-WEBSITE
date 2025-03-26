@@ -1,5 +1,6 @@
 import React from "react";
-import Home from "./assets/pages/home"
+import Home from "./assets/pages/Home/home"
+import Leadership from "./assets/pages/Leadership/leadership";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -10,7 +11,7 @@ const App: React.FC = () => {
       <Header />
       <Routes>
       <Route path="/" element={<Home />} />
-        {/* Add routes for other pages */}
+       <Route path="/leadership" element={<Leadership />} />  
       </Routes>
     </Router>
   );
