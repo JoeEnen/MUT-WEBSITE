@@ -1,0 +1,22 @@
+.aboutUsSection {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0d3e0;
+    width: 100%;
+  }
+  
+  .aboutUsSection h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: 650;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .aboutUsSection p {
+    font-size: 2rem;
+    color: #000000;
+    max-width: 100rem;
+    margin: 2rem auto;
+    line-height: 5rem;
+    font-weight: 550;
+  }  

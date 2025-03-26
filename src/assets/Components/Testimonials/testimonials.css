@@ -1,0 +1,20 @@
+.testimonialsSection {
+    padding: 5rem;
+    text-align: center;
+    background-color: #a0a0a0;
+    width: 100%;
+  }
+  
+  .testimonialsSection h2 {
+    padding: 0 3rem;
+    font-size: 4rem;
+    color: #333;
+  }
+  
+  .testimonialsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
