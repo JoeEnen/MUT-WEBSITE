@@ -1,19 +1,5 @@
 
 {/*
-
-type LeaderProps = {
-  name: string;
-  role: string;
-  image: string;
-  bio: string;
-  social: {
-    linkedin?: string;
-    twitter?: string;
-    facebook?: string;
-    instagram?: string;
-  };
-};
-
 const LeaderCard: React.FC<LeaderProps> = ({ name, role, image, bio, social }) => {
   return (
     <div className="leaderCard">

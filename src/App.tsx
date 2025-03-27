@@ -53,9 +53,6 @@ const Header: React.FC = () => {
           <li>
             <Link to="/events">Events</Link>
           </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
         </ul>
       </nav>
     </header>

@@ -1,12 +1,13 @@
 import React from "react";
 import "../Hero/hero.css";
+import herovid from "../../images/herovid.mp4"
 
 const Hero: React.FC = () => {
   return (
    
     <div className="heroSection">
-        <video autoPlay loop muted className="heroVideo">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      <video autoPlay loop muted className="heroVideo">
+        <source src={herovid} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     <div className="heroOverlay">
