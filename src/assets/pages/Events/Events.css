@@ -1,0 +1,42 @@
+.eventsPage {
+    margin: auto;
+    padding: 3rem 15rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+   
+  }
+  .eventsPage h1{
+font-size: 4rem;
+padding: 4rem 2rem;
+  }
+  
+  .p {
+    font-size: 3rem;
+    padding-bottom: 6rem;
+  }
+  .eventsList {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 3rem;
+  }
+  
+  .eventItem {
+    background-color: #d4cbcb;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .eventItem h2 {
+    color: #007bff;
+    font-size: 2.5rem;
+  }
+  
+  .eventItem p {
+    margin: .9rem 0;
+    font-size: 2rem;
+  }
+  
