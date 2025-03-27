@@ -29,7 +29,7 @@ const Header: React.FC = () => {
     <header className="headerContainer">
       <div className="logos">
         <h1>info@mut.ac.ke</h1>
-        <h1>+254-798 959 217</h1>
+        <h1>+254-705 723 249</h1>
       </div>
       <nav className="navBar">
       <div className="mainl">
