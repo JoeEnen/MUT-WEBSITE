@@ -1,0 +1,35 @@
+.tracksContainer {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #f4f4f4;
+}
+
+.tracksHeader {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #007bff;
+}
+
+.tracksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.trackCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trackTitle {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.trackDescription {
+  font-size: 1.4rem;
+  color: #555;
+}

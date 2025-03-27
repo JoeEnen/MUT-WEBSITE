@@ -1,0 +1,46 @@
+.tracksPage {
+  padding: 2rem;
+  background-color: #ccc;
+  min-height: 100vh;
+}
+
+.registerSection {
+  text-align: center;
+  padding: 7rem 2rem;
+  background-color: #c6c7c7;
+}
+
+.registerSection h2 {
+  padding-bottom: 3rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.registerForm input,
+.registerForm select {
+  padding: 1.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.registerForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.registerForm button:hover {
+  background-color: #0056b3;
+}
