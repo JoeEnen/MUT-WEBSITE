@@ -5,6 +5,7 @@ import TracksPage from "./assets/pages/Tracks/tracksP";
 import EventsPage from "./assets/pages/Events/Events";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import logo from "./assets/images/MUTlogo.png"
 
 
 const App: React.FC = () => {
@@ -26,11 +27,19 @@ export default App;
 const Header: React.FC = () => {
   return (
     <header className="headerContainer">
+      <div className="logos">
+        <h1>info@mut.ac.ke</h1>
+        <h1>+254-798 959 217</h1>
+      </div>
+      <nav className="navBar">
+      <div className="mainl">
+      <div className="logo">
+        <img src={logo} alt="MUTC Logo" />
+      </div>
       <div className="logo">
         <h1>Murang'a University Tech Club (MUTC) </h1>
       </div>
-
-      <nav className="navBar">
+      </div>
         <ul className="navLinks">
           <li>
             <Link to="/">Home</Link>

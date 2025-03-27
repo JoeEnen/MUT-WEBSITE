@@ -10,24 +10,48 @@ body {
     font-size: 1.6rem;
 }
 
+
+
 /* Header*/
 .headerContainer {
     display: flex;
     align-items: center;
     justify-content:space-around;
     flex-direction: column;
-    padding: 2rem 3rem;
-    background-color: #15df69;
+    
+    /*padding: 2rem 2rem;*/
+
+    background-color: #B2D185;
     width: 100%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     gap: 3rem;
   }
   
+
+  .logos {
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding-top: 1rem;
+  }
   .logo h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 550;
     color: #030303;
   }
+  .logo img {
+    width: 11rem;
+  }
+.mainl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
     .navLinks {
     display: flex; 
     list-style: none;
@@ -38,13 +62,19 @@ body {
     
   }
   .navBar { 
-    width: 60;
-    padding: 2rem;
+    width: 100%;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    background-color:aliceblue ;
   }
   
   .navLinks li {
     display: inline;
     font-size: 4rem;
+    padding-right: 4rem;
   }
   
   .navLinks a {
